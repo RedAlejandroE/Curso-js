@@ -1,35 +1,28 @@
-// 01- Vamos a abrir el capitulo 13-DOM y abrirlo en Live server
+// Cuando visitamos un sitio o aplicación web, existen una gran cantidad de eventos que pasan...
 
-// Lo primero que haremos sera crear una carpeta llamada js / y en ella colocar el archivo scripts.js
+// Cuando te gusta un tweet o das retweet.
 
-let elemento;
+// Cuando le das me gusta o compartir a una publicación de Facebook
 
-elemento = document;
-elemento = document.all;
-elemento = document.all[0];
-elemento = document.head;
-elemento = document.body;
-elemento = document.domain;
-elemento = document.URL;
-elemento = document.characterSet;
-elemento = document.contentType;
-elemento = document.forms;
-elemento = document.forms[0];
-elemento = document.forms[0].id;
-elemento = document.forms[0].method;
-elemento = document.forms[0].action;
+// Cuando navegas entre los diferentes productos de amazon, todos estos son eventos que ocurren.
 
-elemento = document.links;
-elemento = document.links[4].id;
-elemento = document.links[4].className;
-elemento = document.forms[4].classList;
-elemento = document.forms[4].classList[0];
-
-elemento = document.images;
-
-elemento = document.scripts;
-elemento = document.scripts[2].getAttribute('src');
-
-console.log(elemento);
+// Al llenar un formulario de airbnb y ver la galería de fotos también son eventos..
 
 
+// Todos los eventos utilizan el método en el document de addEventListener, este registra un evento en especifico, como puede ser un click en un enlace o imagen, submit a un formulario, o cuando el usuario escribe...
+
+// Por lo tanto la sintaaxis es de las sig forma...
+
+// document.addEventListener
+
+// Seguido del evento que estamos escuchando...
+
+// Uno que es muy común y utilizaras en todos tus proyectos es uno llamado DOMContentLoaded
+
+console.log(1)
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log(2);
+    }) // Nota todos los eventos que hay disponibles
+console.log(3);
+
+// En el siguiente video estaremos viendo eventos que ocurren con el mouse!
